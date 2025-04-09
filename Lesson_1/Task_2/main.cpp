@@ -22,6 +22,8 @@ int main()
         res = num1 / num2;
     else if (oper == '*' )
         res = num1 * num2;
+    else
+        cout << "ERROR! Please choose one of the operation and try again " << endl;
 
     cout << "Your answer is: " << res << endl;
     return 0;
